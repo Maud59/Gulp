@@ -1,0 +1,18 @@
+**GULP/GRUNT**
+Logiciel automate d'actions à faire à la main (déploiement, création de fichiers, etc)
+L'élement va passer par un système de pipe pour être traité (compression, flitration etc) pour arriver au but final
+
+*Création de fichiers*
+>dossier sass
+>dossier src
+	>.gitignore
+	>gulpfile
+
+npm init avec remplissage
+npm i --save-dev gulp-sass gulp-autoprefixer lite-server concurrently gulp
+
+./node_modules/.bin/gulp hello qui permet de lire notre première tache. 
+
+Pour éviter de retaper le chemin, on crée un script qui le fait pour nous. 
+
+Mettre un _ au debut du nom de notre fichier, permet d'exclure le fichier dans notre script
